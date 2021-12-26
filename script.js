@@ -1,0 +1,3 @@
+Gameboard {
+    gameboardArray = [];
+}
