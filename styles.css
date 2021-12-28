@@ -1,7 +1,26 @@
+:root {
+    background-image: url('/IMAGES/spiderman\ background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+#gameboard-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 1px;
+    height: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
 .gameboard {
-    background-color: red;
+    background-color: white;
     margin: 2px;
-    width: 144px;
     height: 144px;
+    
+
 }
 
