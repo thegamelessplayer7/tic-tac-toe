@@ -32,3 +32,8 @@
     display: flex;
     justify-content: center;
 }
+
+#announce-winner {
+    color: white;
+    font-size: 25px;
+}
