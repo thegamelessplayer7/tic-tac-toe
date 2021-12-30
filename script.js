@@ -98,37 +98,37 @@ grid.addEventListener('click', (event) => {
   
 
     if (playerOneBoard.length >= 3) {
-        if(playerOneBoard.includes('board-one', 'board-two', 'board-three')) {
+        if(playerOneBoard.includes('board-one') && playerOneBoard.includes('board-two') & playerOneBoard.includes('board-three')) {
             winnerText.textContent = 'PlayerOne wins!';    
-    } else if(playerTwoBoard.includes('board-one', 'board-two', 'board-three')) {
+    } else if(playerTwoBoard.includes('board-one') && playerTwoBoard.includes('board-two') && playerTwoBoard.includes('board-three')) {
         winnerText.textContent = 'PlayerTwo wins!';
-    } else if (playerOneBoard.includes('board-one', 'board-five', 'board-nine')) {
+    } else if (playerOneBoard.includes('board-one') && playerOneBoard.includes('board-five') && playerOneBoard.includes('board-nine')) {
         winnerText.textContent = 'PlayerOne wins!';
-    } else if (playerTwoBoard.includes('board-one', 'board-five', 'board-nine')) {
+    } else if (playerTwoBoard.includes('board-one') && playerTwoBoard.includes('board-five') && playerTwoBoard.includes('board-nine')) {
         winnerText.textContent = 'PlayerTwo wins!';
-    } else if (playerOneBoard.includes('board-one', 'board-four', 'board-seven')) {
+    } else if (playerOneBoard.includes('board-one') && playerOneBoard.includes('board-four') && playerOneBoard.includes('board-seven')) {
         winnerText.textContent = 'PlayerOne wins!';
-    } else if (playerTwoBoard.includes('board-one', 'board-four', 'board-seven')) {
+    } else if (playerTwoBoard.includes('board-one') && playerTwoBoard.includes('board-four') && playerTwoBoard.includes('board-seven')) {
         winnerText.textContent = 'PlayerTwo wins!';
-    } else if(playerOneBoard.includes('board-three', 'board-five', 'board-seven')) {
+    } else if(playerOneBoard.includes('board-three') && playerOneBoard.includes('board-five') && playerOneBoard.includes('board-seven')) {
         winnerText.textContent = 'PlayerOne wins!';
-    } else if(playerTwoBoard.includes('board-three', 'board-five', 'board-seven')) {
+    } else if(playerTwoBoard.includes('board-three') && playerTwoBoard.includes('board-five') && playerTwoBoard.includes('board-seven')) {
         winnerText.textContent = 'PlayerTwo wins!';
-    } else if(playerOneBoard.includes('board-three', 'board-six', 'board-nine')) {
+    } else if(playerOneBoard.includes('board-three') && playerOneBoard.includes('board-six') && playerOneBoard.includes('board-nine')) {
         winnerText.textContent = 'PlayerOne wins!';
-    } else if(playerTwoBoard.includes('board-three', 'board-six', 'board-nine')) {
+    } else if(playerTwoBoard.includes('board-three') && playerTwoBoard.includes('board-six') && playerTwoBoard.includes('board-nine')) {
         winnerText.textContent = 'PlayerTwo wins!';
-    } else if(playerOneBoard.includes('board-seven', 'board-eight', 'board-nine')) {
+    } else if(playerOneBoard.includes('board-seven') && playerOneBoard.includes('board-eight') && playerOneBoard.includes('board-nine')) {
         winnerText.textContent = 'PlayerOne wins!';
-    } else if(playerTwoBoard.includes('board-seven', 'board-eight', 'board-nine')) {
+    } else if(playerTwoBoard.includes('board-seven') && playerTwoBoard.includes('board-eight') && playerTwoBoard.includes('board-nine')) {
         winnerText.textContent = 'PlayerTwo wins!';
-    } else if(playerOneBoard.includes('board-four', 'board-five', 'board-six')) {
+    } else if(playerOneBoard.includes('board-four') && playerOneBoard.includes('board-five') && playerOneBoard.includes('board-six')) {
         winnerText.textContent = 'PlayerOne wins!';
-    } else if(playerTwoBoard.includes('board-four', 'board-five', 'board-six')) {
+    } else if(playerTwoBoard.includes('board-four') && playerTwoBoard.includes('board-five') && playerTwoBoard.includes('board-six')) {
         winnerText.textContent = 'PlayerTwo wins!';
-    } else if(playerOneBoard.includes('board-two', 'board-five', 'board-eight')) {
+    } else if(playerOneBoard.includes('board-two') && playerOneBoard.includes('board-five') && playerOneBoard.includes('board-eight')) {
         winnerText.textContent = 'PlayerOne wins!';
-    } else if(playerTwoBoard.includes('board-two', 'board-five', 'board-eight')) {
+    } else if(playerTwoBoard.includes('board-two') && playerTwoBoard.includes('board-five') && playerTwoBoard.includes('board-eight')) {
         winnerText.textContent = 'PlayerTwo wins!';
     }
 }
